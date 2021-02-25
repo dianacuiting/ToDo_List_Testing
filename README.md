@@ -1,3 +1,5 @@
+To Do List Testing
+
 Steps:
 
 1. Key in your Github's username and password
@@ -13,4 +15,4 @@ How to check if the programme is functioning correctly:
 6. Following that, you should be logged back into your account without having to fill in your Github's details again.
 7. You should return to the "To Do List" page with your previously created lists there.
 8. After 10 seconds, the bottom 5 lists should be deleted.
-9. Lastly, you should be logged out of your account. 
+9. Lastly, you should be logged out of your account and the programme closes after 5 seconds.
