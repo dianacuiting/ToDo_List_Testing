@@ -1,8 +1,4 @@
 from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
 import time
 from random import randint
 
@@ -26,9 +22,9 @@ driver = webdriver.Chrome(PATH)
 driver.get("https://todo-list-login.firebaseapp.com/")
 window_before = driver.window_handles[0]
 #type your Github username here
-username = "dianacuiting"
+username = " "
 #type your Github password here
-password = "myparentsandsisrocks"
+password = " "
 loggingIn(username, password)
 driver.switch_to_window(window_before)
 
